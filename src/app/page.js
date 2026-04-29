@@ -1,4 +1,5 @@
 import Banner from "@/Components/Banner";
+import SunscreenGuide from "@/Components/ProductGuide/SunscreenGuide";
 import Tips from "@/Components/Tips";
 import TopBrands from "@/Components/TopBrands";
 import TopSix from "@/Components/TopSix";
@@ -13,6 +14,7 @@ export default function Home() {
           <TopSix></TopSix>
           <Tips></Tips>
           <TopBrands></TopBrands>
+          <SunscreenGuide></SunscreenGuide>
 
           
     </div>
