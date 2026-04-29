@@ -9,7 +9,7 @@ const ProductCard = ({product}) => {
     // console.log(product.image)
 
     return (
-        <Card className="bg-amber-200">
+        <Card className="bg-[#F6E6B4] shadow-lg rounded-3xl ">
       <div className="space-y-5 mt-5">
         <div className="flex items-center relative aspect-square w-full justify-center ">
           <Image src={product.image} fill alt="product" className="rounded-2xl object-cover"/>

@@ -8,8 +8,41 @@
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Accessories"
+    "category": "Accessories",
+    "features": [
+      "100% UV protection",
+      "Lightweight frame",
+      "Scratch-resistant lenses",
+      "Comfortable nose pads"
+    ],
+    "specifications": {
+      "frameMaterial": "Polycarbonate",
+      "lensType": "Polarized",
+      "weight": "120g",
+      "gender": "Unisex"
+    },
+    "colors": ["Black", "Pink", "White"],
+    "dimensions": "15cm x 5cm",
+    "material": "Premium Plastic",
+    "shipping": "Free delivery within 3-5 business days.",
+    "warranty": "6 months replacement warranty.",
+    "isFeatured": true,
+    "discount": 10,
+    "tags": ["summer", "beach", "fashion", "uv protection"],
+    "reviews": [
+      {
+        "user": "Nafis",
+        "comment": "Very stylish and lightweight.",
+        "rating": 5
+      },
+      {
+        "user": "Sarah",
+        "comment": "Great for beach trips.",
+        "rating": 4
+      }
+    ]
   },
+
   {
     "id": 2,
     "name": "Tropical Print Swim Shorts",
@@ -19,8 +52,36 @@
     "stock": 15,
     "description": "Quick-dry swim shorts with a vibrant tropical pattern.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Apparel"
+    "category": "Apparel",
+    "features": [
+      "Quick-dry fabric",
+      "Elastic waistband",
+      "Breathable material",
+      "Side pockets"
+    ],
+    "specifications": {
+      "fabric": "Polyester",
+      "fit": "Regular",
+      "weight": "180g",
+      "gender": "Men"
+    },
+    "colors": ["Blue", "Green", "Orange"],
+    "dimensions": "Sizes S-XL",
+    "material": "Polyester Blend",
+    "shipping": "Ships within 24 hours.",
+    "warranty": "7 days exchange policy.",
+    "isFeatured": true,
+    "discount": 5,
+    "tags": ["summer", "swimwear", "beach", "vacation"],
+    "reviews": [
+      {
+        "user": "Alex",
+        "comment": "Very comfortable fabric.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 3,
     "name": "Portable Electric Fan",
@@ -30,8 +91,36 @@
     "stock": 20,
     "description": "Handheld USB rechargeable fan for instant cooling on the go.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Electronics"
+    "category": "Electronics",
+    "features": [
+      "USB rechargeable",
+      "3 speed modes",
+      "Portable design",
+      "Quiet operation"
+    ],
+    "specifications": {
+      "battery": "2000mAh",
+      "chargingPort": "USB-C",
+      "weight": "250g",
+      "runtime": "6 hours"
+    },
+    "colors": ["White", "Blue"],
+    "dimensions": "20cm x 10cm",
+    "material": "ABS Plastic",
+    "shipping": "Delivery in 2-4 days.",
+    "warranty": "1 year warranty.",
+    "isFeatured": false,
+    "discount": 8,
+    "tags": ["cooling", "portable", "summer", "electronics"],
+    "reviews": [
+      {
+        "user": "Mia",
+        "comment": "Battery lasts surprisingly long.",
+        "rating": 4
+      }
+    ]
   },
+
   {
     "id": 4,
     "name": "Insulated Water Bottle",
@@ -41,8 +130,36 @@
     "stock": 30,
     "description": "Keep your drinks cold for up to 24 hours with this vacuum flask.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Outdoor"
+    "category": "Outdoor",
+    "features": [
+      "Double-wall insulation",
+      "Leak-proof cap",
+      "Keeps drinks cold for 24h",
+      "Easy carry handle"
+    ],
+    "specifications": {
+      "capacity": "1L",
+      "weight": "450g",
+      "material": "Stainless Steel",
+      "insulation": "Vacuum"
+    },
+    "colors": ["Black", "Silver", "Sky Blue"],
+    "dimensions": "30cm x 8cm",
+    "material": "Food-grade Stainless Steel",
+    "shipping": "Free shipping available.",
+    "warranty": "1 year replacement warranty.",
+    "isFeatured": true,
+    "discount": 12,
+    "tags": ["hydration", "travel", "summer", "outdoor"],
+    "reviews": [
+      {
+        "user": "Daniel",
+        "comment": "Keeps water cold all day.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 5,
     "name": "Wide Brim Straw Hat",
@@ -52,7 +169,34 @@
     "stock": 8,
     "description": "Elegant straw hat providing maximum sun protection and style.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Accessories"
+    "category": "Accessories",
+    "features": [
+      "Wide brim coverage",
+      "Breathable weave",
+      "Foldable design",
+      "Lightweight fit"
+    ],
+    "specifications": {
+      "size": "Adjustable",
+      "weight": "140g",
+      "style": "Beach Hat",
+      "gender": "Women"
+    },
+    "colors": ["Beige", "Brown"],
+    "dimensions": "35cm diameter",
+    "material": "Natural Straw",
+    "shipping": "Ships within 2 days.",
+    "warranty": "No warranty.",
+    "isFeatured": false,
+    "discount": 6,
+    "tags": ["hat", "summer", "fashion", "beach"],
+    "reviews": [
+      {
+        "user": "Emma",
+        "comment": "Looks elegant and protects from sun.",
+        "rating": 5
+      }
+    ]
   },
   {
     "id": 6,
@@ -63,8 +207,36 @@
     "stock": 50,
     "description": "Non-greasy, water-resistant formula for all-day sun protection.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Skincare"
+    "category": "Skincare",
+    "features": [
+      "SPF 50 protection",
+      "Water resistant",
+      "Non-greasy texture",
+      "Suitable for sensitive skin"
+    ],
+    "specifications": {
+      "volume": "100ml",
+      "skinType": "All Skin Types",
+      "protection": "UVA/UVB",
+      "weight": "120g"
+    },
+    "colors": ["White"],
+    "dimensions": "15cm x 5cm",
+    "material": "Dermatologically Tested Formula",
+    "shipping": "Free shipping over $30.",
+    "warranty": "No warranty applicable.",
+    "isFeatured": true,
+    "discount": 10,
+    "tags": ["sunscreen", "summer", "skincare", "spf50"],
+    "reviews": [
+      {
+        "user": "Olivia",
+        "comment": "Does not feel oily at all.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 7,
     "name": "Beach Sandcastle Set",
@@ -74,8 +246,36 @@
     "stock": 12,
     "description": "Fun 10-piece sand mold and bucket set for kids.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Toys"
+    "category": "Toys",
+    "features": [
+      "10-piece set",
+      "Child-safe materials",
+      "Bright colorful design",
+      "Easy to carry"
+    ],
+    "specifications": {
+      "pieces": "10",
+      "ageGroup": "3+",
+      "weight": "500g",
+      "usage": "Beach Play"
+    },
+    "colors": ["Red", "Blue", "Yellow"],
+    "dimensions": "25cm x 20cm",
+    "material": "Non-toxic Plastic",
+    "shipping": "Delivery within 5 days.",
+    "warranty": "7 days replacement policy.",
+    "isFeatured": false,
+    "discount": 5,
+    "tags": ["kids", "beach", "summer", "toy"],
+    "reviews": [
+      {
+        "user": "Sophia",
+        "comment": "Kids absolutely loved it.",
+        "rating": 4
+      }
+    ]
   },
+
   {
     "id": 8,
     "name": "Inflatable Pool Float",
@@ -85,8 +285,36 @@
     "stock": 5,
     "description": "Giant flamingo pool float made from durable vinyl.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Outdoor"
+    "category": "Outdoor",
+    "features": [
+      "Large flamingo design",
+      "Durable vinyl material",
+      "Quick inflation",
+      "Water resistant"
+    ],
+    "specifications": {
+      "capacity": "2 persons",
+      "weight": "1.2kg",
+      "inflation": "Manual/Air Pump",
+      "usage": "Pool"
+    },
+    "colors": ["Pink"],
+    "dimensions": "180cm x 140cm",
+    "material": "Heavy-duty Vinyl",
+    "shipping": "Free express shipping.",
+    "warranty": "30 days replacement warranty.",
+    "isFeatured": true,
+    "discount": 15,
+    "tags": ["pool", "float", "summer", "vacation"],
+    "reviews": [
+      {
+        "user": "Lucas",
+        "comment": "Perfect for pool parties.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 9,
     "name": "Breathable Linen Shirt",
@@ -96,8 +324,36 @@
     "stock": 14,
     "description": "Lightweight 100% linen shirt for ultimate summer comfort.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Apparel"
+    "category": "Apparel",
+    "features": [
+      "Breathable fabric",
+      "Relaxed fit",
+      "Lightweight feel",
+      "Wrinkle resistant"
+    ],
+    "specifications": {
+      "fabric": "100% Linen",
+      "fit": "Regular",
+      "weight": "250g",
+      "gender": "Unisex"
+    },
+    "colors": ["White", "Sky Blue", "Cream"],
+    "dimensions": "Sizes S-XXL",
+    "material": "Premium Linen",
+    "shipping": "Ships within 48 hours.",
+    "warranty": "7 days exchange policy.",
+    "isFeatured": false,
+    "discount": 10,
+    "tags": ["shirt", "fashion", "summer", "linen"],
+    "reviews": [
+      {
+        "user": "Henry",
+        "comment": "Very soft and airy fabric.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 10,
     "name": "Mesh Beach Tote Bag",
@@ -107,8 +363,36 @@
     "stock": 25,
     "description": "Large mesh bag that filters sand and holds all beach essentials.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Accessories"
+    "category": "Accessories",
+    "features": [
+      "Large storage capacity",
+      "Sand filtering mesh",
+      "Water resistant",
+      "Lightweight"
+    ],
+    "specifications": {
+      "capacity": "35L",
+      "weight": "300g",
+      "strapType": "Shoulder",
+      "usage": "Beach"
+    },
+    "colors": ["Blue", "Pink", "Black"],
+    "dimensions": "45cm x 35cm",
+    "material": "Mesh Fabric",
+    "shipping": "Free shipping available.",
+    "warranty": "14 days replacement.",
+    "isFeatured": false,
+    "discount": 8,
+    "tags": ["bag", "beach", "travel", "summer"],
+    "reviews": [
+      {
+        "user": "Ava",
+        "comment": "Very spacious and easy to carry.",
+        "rating": 4
+      }
+    ]
   },
+
   {
     "id": 11,
     "name": "Collapsible Beach Chair",
@@ -118,8 +402,36 @@
     "stock": 9,
     "description": "Ultra-lightweight folding chair with built-in cup holder.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Outdoor"
+    "category": "Outdoor",
+    "features": [
+      "Foldable structure",
+      "Cup holder included",
+      "Lightweight frame",
+      "Comfortable seating"
+    ],
+    "specifications": {
+      "capacity": "120kg",
+      "weight": "2.5kg",
+      "frame": "Aluminum",
+      "usage": "Outdoor"
+    },
+    "colors": ["Blue", "Gray"],
+    "dimensions": "80cm x 60cm",
+    "material": "Aluminum & Fabric",
+    "shipping": "Ships within 3 days.",
+    "warranty": "1 year warranty.",
+    "isFeatured": true,
+    "discount": 12,
+    "tags": ["chair", "beach", "camping", "summer"],
+    "reviews": [
+      {
+        "user": "Noah",
+        "comment": "Very comfortable and easy to carry.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 12,
     "name": "Instant Cooling Towel",
@@ -129,7 +441,34 @@
     "stock": 40,
     "description": "Just wet and shake to activate instant cooling relief.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Fitness"
+    "category": "Fitness",
+    "features": [
+      "Instant cooling effect",
+      "Reusable design",
+      "Lightweight fabric",
+      "Easy storage pouch"
+    ],
+    "specifications": {
+      "fabric": "Microfiber",
+      "weight": "90g",
+      "usage": "Sports & Outdoor",
+      "washable": "Yes"
+    },
+    "colors": ["Blue", "Green"],
+    "dimensions": "100cm x 30cm",
+    "material": "Microfiber",
+    "shipping": "Delivery within 4 days.",
+    "warranty": "No warranty.",
+    "isFeatured": false,
+    "discount": 5,
+    "tags": ["fitness", "cooling", "summer", "sports"],
+    "reviews": [
+      {
+        "user": "Liam",
+        "comment": "Works surprisingly well in hot weather.",
+        "rating": 4
+      }
+    ]
   },
   {
     "id": 13,
@@ -140,8 +479,36 @@
     "stock": 60,
     "description": "Universal waterproof case for smartphones with touch sensitivity.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Electronics"
+    "category": "Electronics",
+    "features": [
+      "100% waterproof seal",
+      "Touchscreen compatible",
+      "Adjustable neck strap",
+      "Transparent front and back"
+    ],
+    "specifications": {
+      "compatibility": "Universal Smartphones",
+      "waterproofDepth": "2 meters",
+      "weight": "80g",
+      "closureType": "Lock Seal"
+    },
+    "colors": ["Black", "Blue", "Transparent"],
+    "dimensions": "20cm x 11cm",
+    "material": "PVC",
+    "shipping": "Ships within 24 hours.",
+    "warranty": "30 days replacement policy.",
+    "isFeatured": true,
+    "discount": 10,
+    "tags": ["waterproof", "phone", "beach", "summer"],
+    "reviews": [
+      {
+        "user": "Ethan",
+        "comment": "Kept my phone completely dry.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 14,
     "name": "Aloe Vera After Sun Gel",
@@ -151,8 +518,36 @@
     "stock": 35,
     "description": "Soothing aloe vera gel to hydrate skin after sun exposure.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Skincare"
+    "category": "Skincare",
+    "features": [
+      "Cooling skin relief",
+      "Hydrating formula",
+      "Fast absorption",
+      "Natural aloe extract"
+    ],
+    "specifications": {
+      "volume": "150ml",
+      "skinType": "All Skin Types",
+      "texture": "Gel",
+      "weight": "170g"
+    },
+    "colors": ["Green"],
+    "dimensions": "18cm x 5cm",
+    "material": "Organic Aloe Formula",
+    "shipping": "Free shipping on skincare products.",
+    "warranty": "No warranty applicable.",
+    "isFeatured": false,
+    "discount": 5,
+    "tags": ["skincare", "aloe vera", "summer", "sun care"],
+    "reviews": [
+      {
+        "user": "Grace",
+        "comment": "Very soothing after long beach days.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 15,
     "name": "Comfort Flip Flops",
@@ -162,8 +557,36 @@
     "stock": 22,
     "description": "Ergonomic flip flops with cushioned soles for beach walks.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Footwear"
+    "category": "Footwear",
+    "features": [
+      "Soft cushioned sole",
+      "Slip-resistant grip",
+      "Lightweight design",
+      "Comfortable straps"
+    ],
+    "specifications": {
+      "soleType": "Rubber",
+      "fit": "Regular",
+      "weight": "350g",
+      "gender": "Unisex"
+    },
+    "colors": ["Black", "Blue", "White"],
+    "dimensions": "Sizes 38-44",
+    "material": "Rubber & Foam",
+    "shipping": "Delivery within 3-5 days.",
+    "warranty": "14 days replacement.",
+    "isFeatured": false,
+    "discount": 8,
+    "tags": ["footwear", "beach", "summer", "casual"],
+    "reviews": [
+      {
+        "user": "Mason",
+        "comment": "Very soft and comfortable for walking.",
+        "rating": 4
+      }
+    ]
   },
+
   {
     "id": 16,
     "name": "Citronella Scented Candle",
@@ -173,8 +596,36 @@
     "stock": 18,
     "description": "Repel mosquitoes naturally during evening outdoor dinners.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Outdoor"
+    "category": "Outdoor",
+    "features": [
+      "Mosquito repellent",
+      "Long burning time",
+      "Pleasant citrus scent",
+      "Reusable jar"
+    ],
+    "specifications": {
+      "burnTime": "20 hours",
+      "weight": "300g",
+      "usage": "Outdoor",
+      "scent": "Citronella"
+    },
+    "colors": ["Yellow"],
+    "dimensions": "10cm x 8cm",
+    "material": "Natural Wax",
+    "shipping": "Ships within 2 days.",
+    "warranty": "No warranty.",
+    "isFeatured": false,
+    "discount": 6,
+    "tags": ["candle", "mosquito", "summer", "outdoor"],
+    "reviews": [
+      {
+        "user": "Chloe",
+        "comment": "Really helps keep bugs away.",
+        "rating": 4
+      }
+    ]
   },
+
   {
     "id": 17,
     "name": "Microfiber Beach Towel",
@@ -184,8 +635,36 @@
     "stock": 15,
     "description": "Sand-resistant, extra large, and fast-drying beach towel.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Accessories"
+    "category": "Accessories",
+    "features": [
+      "Fast drying fabric",
+      "Sand resistant",
+      "Compact folding",
+      "Extra large size"
+    ],
+    "specifications": {
+      "fabric": "Microfiber",
+      "weight": "400g",
+      "usage": "Beach",
+      "washable": "Machine Washable"
+    },
+    "colors": ["Blue", "Orange", "Pink"],
+    "dimensions": "180cm x 90cm",
+    "material": "Premium Microfiber",
+    "shipping": "Free shipping available.",
+    "warranty": "30 days replacement.",
+    "isFeatured": true,
+    "discount": 12,
+    "tags": ["towel", "beach", "summer", "travel"],
+    "reviews": [
+      {
+        "user": "Ella",
+        "comment": "Dries very quickly and feels soft.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 18,
     "name": "Rechargeable Bug Zapper",
@@ -195,8 +674,36 @@
     "stock": 11,
     "description": "Electric bug zapper racket to keep flies and mosquitoes away.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Electronics"
+    "category": "Electronics",
+    "features": [
+      "Rechargeable battery",
+      "Safe electric mesh",
+      "Portable design",
+      "LED power indicator"
+    ],
+    "specifications": {
+      "battery": "1200mAh",
+      "chargingPort": "USB-C",
+      "weight": "450g",
+      "usage": "Indoor & Outdoor"
+    },
+    "colors": ["White", "Black"],
+    "dimensions": "45cm x 18cm",
+    "material": "ABS Plastic",
+    "shipping": "Delivery within 4 days.",
+    "warranty": "6 months warranty.",
+    "isFeatured": false,
+    "discount": 10,
+    "tags": ["electronics", "mosquito", "summer", "portable"],
+    "reviews": [
+      {
+        "user": "Jack",
+        "comment": "Very effective against mosquitoes.",
+        "rating": 4
+      }
+    ]
   },
+
   {
     "id": 19,
     "name": "Pop-up Sun Tent",
@@ -206,8 +713,36 @@
     "stock": 7,
     "description": "Easy-to-assemble pop-up tent for UV protection at the beach.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Outdoor"
+    "category": "Outdoor",
+    "features": [
+      "Quick pop-up setup",
+      "UV protection coating",
+      "Lightweight carrying bag",
+      "Ventilated design"
+    ],
+    "specifications": {
+      "capacity": "3 persons",
+      "weight": "2kg",
+      "waterResistance": "Yes",
+      "usage": "Beach & Camping"
+    },
+    "colors": ["Blue", "Sky Blue"],
+    "dimensions": "200cm x 150cm",
+    "material": "Polyester",
+    "shipping": "Free premium shipping.",
+    "warranty": "1 year warranty.",
+    "isFeatured": true,
+    "discount": 15,
+    "tags": ["tent", "beach", "camping", "summer"],
+    "reviews": [
+      {
+        "user": "Benjamin",
+        "comment": "Super easy to set up.",
+        "rating": 5
+      }
+    ]
   },
+
   {
     "id": 20,
     "name": "Summer Fruit Infuser Bottle",
@@ -217,6 +752,34 @@
     "stock": 20,
     "description": "Hydrate with flavor using this built-in fruit infuser compartment.",
     "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Outdoor"
+    "category": "Outdoor",
+    "features": [
+      "Built-in fruit infuser",
+      "Leak-proof lid",
+      "Easy cleaning design",
+      "Portable carrying loop"
+    ],
+    "specifications": {
+      "capacity": "750ml",
+      "weight": "350g",
+      "usage": "Daily Hydration",
+      "dishwasherSafe": "Yes"
+    },
+    "colors": ["Pink", "Green", "Black"],
+    "dimensions": "28cm x 7cm",
+    "material": "BPA-free Plastic",
+    "shipping": "Ships within 48 hours.",
+    "warranty": "6 months replacement warranty.",
+    "isFeatured": false,
+    "discount": 7,
+    "tags": ["water bottle", "hydration", "summer", "fitness"],
+    "reviews": [
+      {
+        "user": "Harper",
+        "comment": "Makes drinking water much more fun.",
+        "rating": 4
+      }
+    ]
   }
 ]
+

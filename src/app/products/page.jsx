@@ -6,7 +6,7 @@ const ProductsPage = async () => {
     const data = await res.json();
 
     return (
-        <div className='w-[90%] mx-auto'>
+        <div className='w-[90%] mx-auto mt-15'>
 
             <h1 className='text-3xl text-center font-bold text-orange-500'> All Products</h1>
             <p className='text-center text-gray-600 mt-4'>
