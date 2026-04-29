@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "BEAUTY OF JOSEON Relief Sun Rice + Probiotics SPF 50 + (50 ml)",
-    "brand": "SunGuard",
+    "brand": "Beauty Of JOSEON",
     "price": 14,
     "rating": 4.9,
     "stock": 50,
@@ -31,7 +31,7 @@
     "tags": ["sunscreen", "summer", "skincare", "spf50"],
     "reviews": [
       {
-        "user": "Olivia",
+        "user": "Riya",
         "comment": "Does not feel oily at all.",
         "rating": 5
       }
