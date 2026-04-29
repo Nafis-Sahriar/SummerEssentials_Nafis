@@ -1,44 +1,39 @@
 [
   {
     "id": 1,
-    "name": "UV Protection Sunglasses",
-    "brand": "SunShade",
-    "price": 15,
-    "rating": 4.7,
-    "stock": 10,
-    "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "https://i.ibb.co.com/ZRY6JDws/sunglasss.jpg",
-    "category": "Accessories",
+    "name": "BEAUTY OF JOSEON Relief Sun Rice + Probiotics SPF 50 + (50 ml)",
+    "brand": "SunGuard",
+    "price": 14,
+    "rating": 4.9,
+    "stock": 50,
+    "description": "Non-greasy, water-resistant formula for all-day sun protection.",
+    "image": "https://i.ibb.co.com/5XMWGB9G/beautyofjoseonreliefsunprobiotic-860x-25be566d-7c42-4e53-a494-e377855fc400.webp",
+    "category": "Skincare",
     "features": [
-      "100% UV protection",
-      "Lightweight frame",
-      "Scratch-resistant lenses",
-      "Comfortable nose pads"
+      "SPF 50 protection",
+      "Water resistant",
+      "Non-greasy texture",
+      "Suitable for sensitive skin"
     ],
     "specifications": {
-      "frameMaterial": "Polycarbonate",
-      "lensType": "Polarized",
-      "weight": "120g",
-      "gender": "Unisex"
+      "volume": "100ml",
+      "skinType": "All Skin Types",
+      "protection": "UVA/UVB",
+      "weight": "120g"
     },
-    "colors": ["Black", "Pink", "White"],
+    "colors": ["White"],
     "dimensions": "15cm x 5cm",
-    "material": "Premium Plastic",
-    "shipping": "Free delivery within 3-5 business days.",
-    "warranty": "6 months replacement warranty.",
+    "material": "Dermatologically Tested Formula",
+    "shipping": "Free shipping over $30.",
+    "warranty": "No warranty applicable.",
     "isFeatured": true,
     "discount": 10,
-    "tags": ["summer", "beach", "fashion", "uv protection"],
+    "tags": ["sunscreen", "summer", "skincare", "spf50"],
     "reviews": [
       {
-        "user": "Nafis",
-        "comment": "Very stylish and lightweight.",
+        "user": "Olivia",
+        "comment": "Does not feel oily at all.",
         "rating": 5
-      },
-      {
-        "user": "Sarah",
-        "comment": "Great for beach trips.",
-        "rating": 4
       }
     ]
   },
