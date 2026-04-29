@@ -3,33 +3,40 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div className="bg-[url('https://i.pinimg.com/1200x/8a/fe/83/8afe83b98f339de4c1dd34fde26a86d0.jpg')] h-[60vh] w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg shadow-2xl">
-      {/* Overlay */}
-      <div className="w-full h-full rounded-lg bg-black/50 flex items-center ">
-        <div className="max-w-7xl mx-auto px-6 text-white">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-2xl">
-            Turn Ideas into Stunning AI Art
-          </h1>
-          <p className="text-lg md:text-xl mb-6 max-w-xl text-gray-200">
-            Generate high-quality images from simple text prompts.
-          </p>
+   <div className="bg-[url('/banner.png')] min-h-[50vh] md:h-[60vh] w-full bg-cover bg-no-repeat bg-center flex items-center rounded-lg mt-20 shadow-2xl">
+ 
+  <div className="w-full h-full rounded-lg flex items-center ">
 
-          <div className="flex gap-4">
-            <Link href="#">
-              <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500">
-                Generate Now
-              </Button>
-            </Link>
+    <div className="max-w-7xl px-6 md:px-12 text-white">
+   
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 max-w-2xl leading-tight">
+        Your Ultimate Summer Store: Everything You Need for the Season!
+      </h1>
+      
+      <p className="text-base md:text-xl mb-8 max-w-xl text-orange-900">
+      
+        Discover the hottest trends and essentials to make your summer unforgettable.
+      </p>
 
-            <Link href="/pricing">
-              <Button variant="outline" className="text-white">
-                View Pricing
-              </Button>
-            </Link>
-          </div>
-        </div>
+       <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <Link href="#" className="w-full sm:w-auto">
+          <Button className="w-full sm:w-auto bg-linear-to-r from-orange-700 via-orange-500 to-red-500">
+            Shop Now
+          </Button>
+        </Link>
+
+        <Link href="/pricing" className="w-full sm:w-auto">
+          <Button  className="w-full bg-white sm:w-auto text-orange-700 border-white hover:bg-white hover:text-orange-900">
+            View Products
+          </Button>
+        </Link>
       </div>
+
     </div>
+
+    
+  </div>
+</div>
   );
 };
 

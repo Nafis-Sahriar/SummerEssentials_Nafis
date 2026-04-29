@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://i.postimg.cc/8PzXzY9m/sunglasses.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Tropical Print Swim Shorts",
+    "brand": "AquaWave",
+    "price": 25,
+    "rating": 4.5,
+    "stock": 15,
+    "description": "Quick-dry swim shorts with a vibrant tropical pattern.",
+    "image": "https://i.postimg.cc/vH4v8v8m/swim-shorts.png",
+    "category": "Apparel"
+  },
+  {
+    "id": 3,
+    "name": "Portable Electric Fan",
+    "brand": "BreezeAir",
+    "price": 12,
+    "rating": 4.3,
+    "stock": 20,
+    "description": "Handheld USB rechargeable fan for instant cooling on the go.",
+    "image": "https://i.postimg.cc/mD3m4m4m/fan.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 4,
+    "name": "Insulated Water Bottle",
+    "brand": "HydroPeak",
+    "price": 22,
+    "rating": 4.8,
+    "stock": 30,
+    "description": "Keep your drinks cold for up to 24 hours with this vacuum flask.",
+    "image": "https://i.postimg.cc/9Q9Q9Q9Q/bottle.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 5,
+    "name": "Wide Brim Straw Hat",
+    "brand": "IslandVibe",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 8,
+    "description": "Elegant straw hat providing maximum sun protection and style.",
+    "image": "https://i.postimg.cc/wT3wT3wT/hat.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 6,
+    "name": "Waterproof Sunscreen SPF 50",
+    "brand": "SunGuard",
+    "price": 14,
+    "rating": 4.9,
+    "stock": 50,
+    "description": "Non-greasy, water-resistant formula for all-day sun protection.",
+    "image": "https://i.postimg.cc/jS3jS3jS/sunscreen.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 7,
+    "name": "Beach Sandcastle Set",
+    "brand": "PlayTime",
+    "price": 20,
+    "rating": 4.4,
+    "stock": 12,
+    "description": "Fun 10-piece sand mold and bucket set for kids.",
+    "image": "https://i.postimg.cc/k4k4k4k4/beach-toys.png",
+    "category": "Toys"
+  },
+  {
+    "id": 8,
+    "name": "Inflatable Pool Float",
+    "brand": "FloatieCo",
+    "price": 35,
+    "rating": 4.7,
+    "stock": 5,
+    "description": "Giant flamingo pool float made from durable vinyl.",
+    "image": "https://i.postimg.cc/L5L5L5L5/float.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 9,
+    "name": "Breathable Linen Shirt",
+    "brand": "CoastalGlow",
+    "price": 40,
+    "rating": 4.6,
+    "stock": 14,
+    "description": "Lightweight 100% linen shirt for ultimate summer comfort.",
+    "image": "https://i.postimg.cc/M6M6M6M6/shirt.png",
+    "category": "Apparel"
+  },
+  {
+    "id": 10,
+    "name": "Mesh Beach Tote Bag",
+    "brand": "CarryAll",
+    "price": 19,
+    "rating": 4.5,
+    "stock": 25,
+    "description": "Large mesh bag that filters sand and holds all beach essentials.",
+    "image": "https://i.postimg.cc/N7N7N7N7/bag.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 11,
+    "name": "Collapsible Beach Chair",
+    "brand": "RestEasy",
+    "price": 45,
+    "rating": 4.8,
+    "stock": 9,
+    "description": "Ultra-lightweight folding chair with built-in cup holder.",
+    "image": "https://i.postimg.cc/O8O8O8O8/chair.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 12,
+    "name": "Instant Cooling Towel",
+    "brand": "ChillGear",
+    "price": 10,
+    "rating": 4.2,
+    "stock": 40,
+    "description": "Just wet and shake to activate instant cooling relief.",
+    "image": "https://i.postimg.cc/P9P9P9P9/towel.png",
+    "category": "Fitness"
+  },
+  {
+    "id": 13,
+    "name": "Waterproof Phone Pouch",
+    "brand": "DrySecure",
+    "price": 11,
+    "rating": 4.7,
+    "stock": 60,
+    "description": "Universal waterproof case for smartphones with touch sensitivity.",
+    "image": "https://i.postimg.cc/Q1Q1Q1Q1/pouch.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 14,
+    "name": "Aloe Vera After Sun Gel",
+    "brand": "SunGuard",
+    "price": 9,
+    "rating": 4.8,
+    "stock": 35,
+    "description": "Soothing aloe vera gel to hydrate skin after sun exposure.",
+    "image": "https://i.postimg.cc/R2R2R2R2/aloe.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 15,
+    "name": "Comfort Flip Flops",
+    "brand": "StepSoft",
+    "price": 16,
+    "rating": 4.4,
+    "stock": 22,
+    "description": "Ergonomic flip flops with cushioned soles for beach walks.",
+    "image": "https://i.postimg.cc/S3S3S3S3/sandals.png",
+    "category": "Footwear"
+  },
+  {
+    "id": 16,
+    "name": "Citronella Scented Candle",
+    "brand": "BugOff",
+    "price": 13,
+    "rating": 4.1,
+    "stock": 18,
+    "description": "Repel mosquitoes naturally during evening outdoor dinners.",
+    "image": "https://i.postimg.cc/T4T4T4T4/candle.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 17,
+    "name": "Microfiber Beach Towel",
+    "brand": "SandFree",
+    "price": 24,
+    "rating": 4.9,
+    "stock": 15,
+    "description": "Sand-resistant, extra large, and fast-drying beach towel.",
+    "image": "https://i.postimg.cc/U5U5U5U5/towel-large.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 18,
+    "name": "Rechargeable Bug Zapper",
+    "brand": "BreezeAir",
+    "price": 28,
+    "rating": 4.3,
+    "stock": 11,
+    "description": "Electric bug zapper racket to keep flies and mosquitoes away.",
+    "image": "https://i.postimg.cc/V6V6V6V6/zapper.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 19,
+    "name": "Pop-up Sun Tent",
+    "brand": "IslandVibe",
+    "price": 55,
+    "rating": 4.7,
+    "stock": 7,
+    "description": "Easy-to-assemble pop-up tent for UV protection at the beach.",
+    "image": "https://i.postimg.cc/W7W7W7W7/tent.png",
+    "category": "Outdoor"
+  },
+  {
+    "id": 20,
+    "name": "Summer Fruit Infuser Bottle",
+    "brand": "HydroPeak",
+    "price": 17,
+    "rating": 4.5,
+    "stock": 20,
+    "description": "Hydrate with flavor using this built-in fruit infuser compartment.",
+    "image": "https://i.postimg.cc/X8X8X8X8/infuser.png",
+    "category": "Outdoor"
+  }
+]
