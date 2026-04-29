@@ -5,7 +5,7 @@ import React from 'react';
 
 const ProductCard = ({product}) => {
 
-    console.log(product.image)
+    // console.log(product.image)
 
     return (
         <Card className="">
