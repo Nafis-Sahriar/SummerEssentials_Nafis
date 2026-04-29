@@ -17,7 +17,7 @@ export default function RegisterPage() {
   };
 
   return (
-    <Card className="border mx-auto w-125 py-10 mt-5">
+    <Card className="shadow-2xl mx-auto w-[90%] md:w-125 py-10 mt-5 bg-amber-50">
       <h1 className="font-black text-2xl text-center bg-linear-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">Sign Up</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>

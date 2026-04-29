@@ -2,6 +2,7 @@
 import { Button } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaCartArrowDown } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -23,7 +24,7 @@ const Navbar = () => {
         </div> </Link>
         
 
-        <ul className="flex items-center gap-5 text-sm">
+        <ul className="hidden md:flex items-center gap-5 text-sm">
           <li>
             <Link href={"/"}>Home</Link>
           </li>
@@ -37,6 +38,7 @@ const Navbar = () => {
 
         <div className="flex gap-4">
           <ul className="flex items-center gap-4 text-sm">
+            {/* <li><FaCartArrowDown /></li> */}
             <li>
                 <Link href="/signin">
               <Button className="bg-linear-to-r from-yellow-500 via-orange-500 bg-red-500">

@@ -2,7 +2,7 @@ import { Button, Card, Chip } from '@heroui/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { FaStar } from 'react-icons/fa';
+import { FaCartPlus, FaStar } from 'react-icons/fa';
 
 const ProductCard = ({product}) => {
 
@@ -27,9 +27,9 @@ const ProductCard = ({product}) => {
         </div>
         
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-between gap-4">
             <Link href={`/products/${product.id}`}>  <Button variant="outline" className="w-full hover:bg-orange-600 hover:text-white hover:font-bold">View Details</Button> </Link>
-          
+                <Button variant='outline'  className=" hover:bg-orange-600 hover:text-white hover:font-bold">Add to Cart<FaCartPlus></FaCartPlus></Button>
         </div>
       </div>
     </Card>

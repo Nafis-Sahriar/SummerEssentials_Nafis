@@ -1,5 +1,6 @@
 import Banner from "@/Components/Banner";
 import Tips from "@/Components/Tips";
+import TopBrands from "@/Components/TopBrands";
 import TopSix from "@/Components/TopSix";
 import Image from "next/image";
 
@@ -11,6 +12,7 @@ export default function Home() {
           <Banner></Banner>
           <TopSix></TopSix>
           <Tips></Tips>
+          <TopBrands></TopBrands>
 
           
     </div>
