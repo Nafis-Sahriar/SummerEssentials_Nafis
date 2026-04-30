@@ -33,7 +33,7 @@ export default function RegisterPage()
         email: userData.email,
         password: userData.password,
         name: userData.name,
-        image: userData.image
+        image: userData.image,
     })
 
     // console.log(data,error);
@@ -67,7 +67,7 @@ export default function RegisterPage()
 
         <TextField isRequired name="image" type="text">
           <Label>Image URL</Label>
-          <Input placeholder="Image URL" />
+          <Input placeholder="Please Enter a Valid Image URL or Continue with Google" />
           <FieldError />
         </TextField>
 
@@ -84,7 +84,7 @@ export default function RegisterPage()
           }}
         >
           <Label>Email</Label>
-          <Input placeholder="john@example.com" />
+          <Input placeholder="Enter your Email" />
           <FieldError />
         </TextField>
 

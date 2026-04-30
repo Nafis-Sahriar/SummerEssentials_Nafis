@@ -1,10 +1,21 @@
 "use client";
-import { Button } from "@heroui/react";
+import { authClient } from "@/lib/auth-client";
+import { Avatar, Button } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaCartArrowDown } from "react-icons/fa";
 
 const Navbar = () => {
+
+    const userData = authClient.useSession();
+
+    // console.log(userData)
+
+    const user = userData?.data?.user;
+
+    console.log(user)
+
+
   return (
     <div className="border-b px-2 bg-amber-100 w-[90%] mx-auto sticky top-0 z-50 rounded-2xl">
       <nav className=" flex justify-between items-center  py-3  mx-auto w-full">
@@ -36,7 +47,9 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className="flex gap-4">
+
+        {
+            !user && <div className="flex gap-4">
           <ul className="flex items-center gap-4 text-sm">
             {/* <li><FaCartArrowDown /></li> */}
             <li>
@@ -59,6 +72,32 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+        }
+
+        {
+            user? 
+            <div className="flex items-center gap-4">
+
+                <p className="hidden md:block text-sm font-bold text-orange-700">Hi!, {user?.name}</p>
+                  <Avatar
+                  >
+        <Avatar.Image
+          alt={user?.name}
+          src={user.image}
+          referrerPolicy="no-referrer"
+        />
+        <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+      </Avatar>
+                <Button onClick={() => authClient.signOut()} className="bg-linear-to-r from-[#F6B73C] via-[#F28C28] to-[#f47215] hover:scale-103 hover:from-yellow-500
+              hover:via-orange-600 
+              hover:to-red-600">
+                Sign Out
+              </Button>
+            </div>
+            : null
+        }
+
+        
       </nav>
     </div>
   );
