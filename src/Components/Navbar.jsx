@@ -41,14 +41,18 @@ const Navbar = () => {
             {/* <li><FaCartArrowDown /></li> */}
             <li>
                 <Link href="/signin">
-              <Button className="bg-linear-to-r from-yellow-500 via-orange-500 bg-red-500">
-                Log In
+              <Button className="bg-linear-to-br from-[#F6B73C] via-[#fca752] to-[#D96A1D] hover:scale-103 hover:from-yellow-500 
+              hover:via-orange-600 
+              hover:to-red-600">
+                Sign In
               </Button>
             </Link>
             </li>
             <li>
                <Link href="/register">
-              <Button className="bg-linear-to-r from-yellow-500 via-orange-500 bg-red-500">
+              <Button className="bg-linear-to-r from-[#F6B73C] via-[#F28C28] to-[#f47215] hover:scale-103 hover:from-yellow-500 
+              hover:via-orange-600 
+              hover:to-red-600">
                 Register
               </Button>
             </Link>

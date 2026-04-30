@@ -23,7 +23,9 @@ const TopSix = async () => {
 
                 <div>
                     <Link href="/products">
-                        <Button variant="outline" className='mx-auto mt-10 block hover:bg-orange-600 hover:text-white hover:font-bold'>View All Products</Button>
+                        <Button variant="outline" className='mx-auto mt-10 block hover:bg-linear-to-r from-yellow-500 
+              hover:via-orange-600 
+              hover:to-red-600 hover:text-white hover:font-bold'>View All Products</Button>
                     </Link>
                 </div>
 

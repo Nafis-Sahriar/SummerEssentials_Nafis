@@ -10,7 +10,7 @@ const TopBrands = () => {
           <p className="text-gray-600 mt-3">Trusted brands loved by millions worldwide.</p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-5">
+        <div className="flex flex-wrap justify-center gap-5 ">
 
             <h1>Here will be brand cards, I will design them later. </h1>
 

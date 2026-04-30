@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaCheck, FaStar } from "react-icons/fa";
+import { FaCartShopping } from "react-icons/fa6";
 
 const ProductDetailsPage = async ({ params }) => {
   const { id } = await params;
@@ -17,7 +18,7 @@ const ProductDetailsPage = async ({ params }) => {
   console.log(id);
   return (
 
-    <div className="max-w-7xl mx-auto px-6 py-16">
+    <div className="max-w-7xl mx-auto px-6 py-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
        
         <div className="flex items-center relative aspect-square w-full justify-center ">
@@ -102,13 +103,13 @@ const ProductDetailsPage = async ({ params }) => {
 
           <div className="flex flex-wrap gap-4 pt-4">
 
-            <Button className="bg-linear-to-r from-yellow-400 via-orange-500 to-red-500 
+            <Button className="bg-linear-to-r from-[#F6B73C] via-[#F28C28] to-[#f47215] hover:scale-103  
             hover:from-yellow-500 
             hover:via-orange-600 
-            hover:to-red-600 w-full p-7 md:w-auto font-bold text-xl">Add to Cart</Button>
+            hover:to-red-600 w-full p-7 md:w-auto font-bold text-xl">Add to Cart <FaCartShopping /></Button>
 
             <Link href="/products">
-              <Button className="bg-linear-to-r from-yellow-400 via-orange-500 to-red-500 
+              <Button className="bg-linear-to-r from-[#F6B73C] via-[#F28C28] to-[#f47215] hover:scale-103  
               hover:from-yellow-500 
               hover:via-orange-600 
               hover:to-red-600 w-full p-7 md:w-auto font-bold text-xl">View Other Products</Button>

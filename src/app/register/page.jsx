@@ -1,4 +1,5 @@
 "use client";
+import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import {
   Button,
@@ -10,15 +11,48 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { useRouter } from "next/navigation";
 
-export default function RegisterPage() {
-  const onSubmit = async (e) => {
+export default function RegisterPage() 
+{
+
+    const router = useRouter();
+
+  const onSubmit = async (e) => 
+{
     e.preventDefault();
+    
+    const formData = new FormData(e.target);
+    const userData = Object.fromEntries(formData.entries());
+
+
+    // console.log(data);
+
+    const {data, error} = await authClient.signUp.email({
+        email: userData.email,
+        password: userData.password,
+        name: userData.name,
+        image: userData.image
+    })
+
+    // console.log(data,error);
+
+    if(error){
+        alert(error.message);
+    }
+    if(data){
+        alert("Registered successfully! Please log in.");
+        router.push("/signin");
+    }
+
+
+
+
   };
 
   return (
     <Card className="shadow-2xl mx-auto w-[90%] md:w-125 py-10 mt-5 bg-amber-50">
-      <h1 className="font-black text-2xl text-center bg-linear-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">Sign Up</h1>
+      <h1 className="font-black text-2xl text-center bg-linear-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">Register</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField isRequired name="name" type="text">
@@ -80,7 +114,7 @@ export default function RegisterPage() {
         <div className="flex gap-2">
           <Button type="submit" className="bg-linear-to-r from-yellow-500 via-orange-500 bg-red-500">
             <Check />
-            Submit
+            Register 
           </Button>
           <Button type="reset" variant="secondary" className="bg-gray-200 text-gray-700 hover:bg-gray-300">
             Reset

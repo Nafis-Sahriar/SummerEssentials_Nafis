@@ -1,4 +1,5 @@
 "use client";
+import { authClient } from "@/lib/auth-client";
 import { Check } from "@gravity-ui/icons";
 import {
   Button,
@@ -11,9 +12,32 @@ import {
   TextField,
 } from "@heroui/react";
 
-export default function SignInPage() {
-  const onSubmit = async (e) => {
+export default function SignInPage() 
+{
+  const onSubmit = async (e) => 
+  {
     e.preventDefault();
+    const formData = new FormData(e.target);
+    const userData = Object.fromEntries(formData.entries());
+
+        // console.log(data);
+
+        const {data, error} = await authClient.signIn.email({
+            email: userData.email,
+            password: userData.password,
+            callbackURL: "/"
+        })
+
+        if(error){
+            alert(error.message);
+        }
+        if(data){
+            alert("Logged in successfully!");
+        }
+
+
+
+
   };
 
   return (
@@ -72,7 +96,7 @@ export default function SignInPage() {
         <div className="flex gap-2">
           <Button type="submit" className="bg-linear-to-r from-yellow-400 via-orange-500 to-red-500">
             <Check />
-           Log In
+           Sign In
           </Button>
           <Button type="reset" className="bg-gray-300 text-gray-700 hover:bg-gray-400">
             Reset
