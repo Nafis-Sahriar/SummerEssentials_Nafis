@@ -81,13 +81,13 @@ const Navbar = () => {
                 <p className="hidden md:block text-sm font-bold text-orange-700">Hi!, {user?.name}</p>
                   <Avatar
                   >
-        <Avatar.Image
-          alt={user?.name}
-          src={user.image}
-          referrerPolicy="no-referrer"
-        />
-        <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
-      </Avatar>
+                            <Avatar.Image
+                            alt={user?.name}
+                            src={user.image}
+                            referrerPolicy="no-referrer"
+                            />
+                <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+                </Avatar>
                 <Button onClick={() => authClient.signOut()} className="bg-linear-to-r from-[#F6B73C] via-[#F28C28] to-[#f47215] hover:scale-103 hover:from-yellow-500
               hover:via-orange-600 
               hover:to-red-600">

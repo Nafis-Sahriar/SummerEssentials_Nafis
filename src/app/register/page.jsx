@@ -11,6 +11,7 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FaGoogle } from "react-icons/fa";
 
@@ -118,10 +119,16 @@ export default function RegisterPage()
             Reset
           </Button>
         </div>
+        
+        <div>
+            <p>Already Registered? <Link href="/signin" className="text-orange-500 hover:text-orange-400 hover:font-bold hover:underline">Sign In</Link></p>
+        </div>
+
+
         <hr></hr>
         <p className="text-center text-gray-700">or</p>
         <div className="flex gap-2">
-          <Button onClick={handleGoogleSignUp} variant="outline" className="border border-gray-300 text-gray-700 hover:bg-gray-100 w-full">
+          <Button onClick={handleGoogleSignUp} variant="outline" className="border-none hover:scale-102 shadow-2xl text-gray-700 hover:text-orange-900 bg-linear-to-r from-orange-200 via-yellow-300 to-orange-600 w-full">
             <FaGoogle></FaGoogle>
             Continue with Google
           </Button>

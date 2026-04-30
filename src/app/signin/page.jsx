@@ -12,6 +12,7 @@ import {
   Separator,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import { FaGoogle } from "react-icons/fa";
 
 export default function SignInPage() 
@@ -101,11 +102,20 @@ export default function SignInPage()
           </Button>
         </div>
 
+        <div className="text-center">
+            <p className="text-sm text-gray-600">
+                Do not have an account?{' '}
+                <Link href="/register" className="text-orange-500 hover:text-orange-400 hover:font-bold hover:underline">
+                    Register
+                </Link>
+            </p>
+        </div>
+
         <Separator></Separator>
             <p className="text-center text-gray-700">or</p>
 
          <div className="flex gap-2">
-                  <Button onClick={handleGoogleSignUp} variant="outline" className="border border-gray-300 text-gray-700 hover:bg-gray-100 w-full">
+                  <Button onClick={handleGoogleSignUp} variant="outline" className="border-none shadow-2xl hover:scale-102 text-gray-700 hover:text-orange-900 bg-linear-to-r from-orange-200 via-yellow-300 to-orange-600 w-full">
                     <FaGoogle></FaGoogle>
                     Continue with Google
                   </Button>
