@@ -12,6 +12,7 @@ import {
   TextField,
 } from "@heroui/react";
 import { useRouter } from "next/navigation";
+import { FaGoogle } from "react-icons/fa";
 
 export default function RegisterPage() 
 {
@@ -45,10 +46,13 @@ export default function RegisterPage()
         router.push("/signin");
     }
 
-
-
-
-  };
+  }; 
+  
+  const handleGoogleSignUp = async () => {
+        const {data, error} = await authClient.signIn.social({
+            provider: "google",
+            callbackURL: "/"
+        })}
 
   return (
     <Card className="shadow-2xl mx-auto w-[90%] md:w-125 py-10 mt-5 bg-amber-50">
@@ -93,12 +97,6 @@ export default function RegisterPage()
             if (value.length < 8) {
               return "Password must be at least 8 characters";
             }
-            if (!/[A-Z]/.test(value)) {
-              return "Password must contain at least one uppercase letter";
-            }
-            if (!/[0-9]/.test(value)) {
-              return "Password must contain at least one number";
-            }
 
             return null;
           }}
@@ -119,6 +117,15 @@ export default function RegisterPage()
           <Button type="reset" variant="secondary" className="bg-gray-200 text-gray-700 hover:bg-gray-300">
             Reset
           </Button>
+        </div>
+        <hr></hr>
+        <p className="text-center text-gray-700">or</p>
+        <div className="flex gap-2">
+          <Button onClick={handleGoogleSignUp} variant="outline" className="border border-gray-300 text-gray-700 hover:bg-gray-100 w-full">
+            <FaGoogle></FaGoogle>
+            Continue with Google
+          </Button>
+         
         </div>
       </Form>
     </Card>

@@ -9,8 +9,10 @@ import {
   Form,
   Input,
   Label,
+  Separator,
   TextField,
 } from "@heroui/react";
+import { FaGoogle } from "react-icons/fa";
 
 export default function SignInPage() 
 {
@@ -40,14 +42,17 @@ export default function SignInPage()
 
   };
 
+   const handleGoogleSignUp = async () => {
+          const {data, error} = await authClient.signIn.social({
+              provider: "google",
+              callbackURL: "/"
+          })}
+
   return (
     <Card className="shadow-2xl mx-auto w-[90%] md:w-125 py-10 mt-5 bg-amber-50">
       <h1 className="font-black text-2xl text-center bg-linear-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">Sign In</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
-   
-
-      
 
         <TextField
           isRequired
@@ -75,13 +80,6 @@ export default function SignInPage()
             if (value.length < 8) {
               return "Password must be at least 8 characters";
             }
-            if (!/[A-Z]/.test(value)) {
-              return "Password must contain at least one uppercase letter";
-            }
-            if (!/[0-9]/.test(value)) {
-              return "Password must contain at least one number";
-            }
-
             return null;
           }}
         >
@@ -102,6 +100,17 @@ export default function SignInPage()
             Reset
           </Button>
         </div>
+
+        <Separator></Separator>
+            <p className="text-center text-gray-700">or</p>
+
+         <div className="flex gap-2">
+                  <Button onClick={handleGoogleSignUp} variant="outline" className="border border-gray-300 text-gray-700 hover:bg-gray-100 w-full">
+                    <FaGoogle></FaGoogle>
+                    Continue with Google
+                  </Button>
+                 
+                </div>
       </Form>
     </Card>
   );
