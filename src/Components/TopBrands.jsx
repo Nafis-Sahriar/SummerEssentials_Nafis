@@ -15,7 +15,7 @@ const TopBrands = () => {
             <h1>Here will be brand cards, I will design them later. </h1>
 
 
-
+            <h1>Will be updated</h1>
         </div>
       </div>
     </div>
